@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>каталог «Бородинский»</title>
+  </head>
+  <body>
+  	<header class="main-header">
+      <div class="item-logo">
+        <img src="img/item-logo.png" width="100" height="50" alt="Барбершоп «Бородинский»"></div>
+  		<div class="container">
+        	<nav class="main-navigation">
+          		<ul>
+           			<li><a href="#">Информация</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Прайс-лист</a></li>
+                <li><a href="#">Магазин</a></li>
+                <li><a href="#">Контакты</a></li>
+				      </ul>
+			   </nav>
+        	<div class="user-block">
+            <a class="login" href="#">Вход</a>
+			   </div>
+    	</div>
+	</header>
+  <main class="shop-content">
+    <h1>Cредства для ухода</h1>
+    <div class="breadcrumbs">
+      <ul>
+        <li>главная</li>
+        <li>магазин</li>
+        <li>средства для ухода</li>
+      </ul>
+    </div>
+    <div class="sidebar">
+      <form action="/echo" method="post">
+        <div class="sidebar-firm">
+        <h2>производители:</h2>
+          <ul>
+            <li>
+              <input type="checkbox" name="firm" checked id="firm-1">
+              <label for="firm-1">Baxter of california</label>
+            </li>
+            <li>
+              <input type="checkbox" name="firm" id="firm-2">
+              <label for="firm-2">MR Natty</label>
+                  </li>
+            <li>
+              <input type="checkbox" name="firm" checked id="firm-3">
+              <label for="firm-3">Suaevecito</label>
+            </li>
+            <li>
+              <input type="checkbox" name="firm" id="firm-4">
+              <label for="firm-4">Malin+Goetz</label>
+            </li>
+            <li>
+              <input type="checkbox" name="firm" id="firm-5">
+              <label for="firm-5">Murray's</label>
+            </li>
+            <li>
+              <input type="checkbox" name="firm" checked id="firm-6">
+              <label for="firm-6">American crew</label>
+            </li>
+          </ul>
+      </div>
+      <div class="sidebar-group">
+      <h2>группы товаров:</h2>
+          <ul>
+            <li>
+              <input type="radio" name="group" id="group-1">
+              <label for="group-1">бритвенные принадлежности</label>
+            </li>
+            <li>
+              <input type="radio" name="group" id="group-2" checked>
+              <label for="group-2">средства для ухода</label>
+            </li>
+            <li>
+              <input type="radio" name="group" id="group-3">
+              <label for="group-3">аксуссуары</label>
+            </li>
+          </ul>
+      </div>
+      <button type="submit" value="показать">показать</button>
+      </form>
+    </div>
+    <div class="shop-container">
+      <article>
+        <figure>
+          <img src="http://placehold.it/150x100" alt="набор для путешествий" width="150" height="100"> 
+          <figcaption>набор для путешествий "Baxter of california"</figcaption>
+        </figure>
+        <p>2900руб.</p>
+        <a class="btn" href="#">купить</a>
+      </article>
+      <article>
+        <figure>
+          <img src="http://placehold.it/150x100" alt="увлажняющий кондиционер" width="150" height="100"> 
+          <figcaption>увлажняющий кондиционер "Baxter of california"</figcaption>
+        </figure>
+        <p>750руб.</p>
+        <a class="btn" href="#">купить</a>
+      </article>
+      <article>
+        <figure>
+          <img src="http://placehold.it/150x100" alt="гель для волос" width="150" height="100"> 
+          <figcaption>гель для волос "Suavecito"</figcaption>
+        </figure>
+        <p>290руб.</p>
+        <a class="btn" href="#">купить</a>
+      </article>
+      <article>
+        <figure>
+          <img src="http://placehold.it/150x100" alt="глина для укладки волос" width="150" height="100"> 
+          <figcaption>глина для укладки волос "American crew"</figcaption>
+        </figure>
+        <p>500руб.</p>
+        <a class="btn" href="#">купить</a>
+      </article>
+      <article>
+        <figure>
+          <img src="http://placehold.it/150x100" alt="гель для волос" width="150" height="100"> 
+          <figcaption>гель для волос "American crew"</figcaption>
+        </figure>
+        <p>300руб.</p>
+        <a class="btn" href="#">купить</a>
+      </article>
+      <article>
+        <figure>
+          <img src="http://placehold.it/150x100" alt="набор для бритья" width="150" height="100"> 
+          <figcaption>набор для бритья "Baxter of california"</figcaption>
+        </figure>
+        <p>3900руб.</p>
+        <a class="btn" href="#">купить</a>
+      </article>
+      <a href="#">1</a>
+      <a href="#">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+    </div>
+  </main>
+  <footer class="main-footer">
+      <div class="container">
+        <section class="footer-contacts">
+          Барбершоп «Бородинский»<br>
+            Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+            <a href="#">Как нас найти?</a><br>
+            Телефон: +7 (812) 666-02-66
+    </section>
+        <section class="footer-social">
+          <p>Давайте дружить!</p>
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+            <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+            <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+    </section>
+        <section class="footer-copyright">
+          <p>Разработано:</p>
+            <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+    </section>
+      </div>
+    </footer>
+ </body>
+</html>
